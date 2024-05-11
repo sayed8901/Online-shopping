@@ -1,0 +1,25 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  --primary-color: #ff4240;
+}
+
+.theme-color {
+  color: var(--primary-color);
+}
+
+.section-heading {
+  border-top: 1px dashed lightgray;
+  border-bottom: 1px dashed lightgray;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.nav-item a:hover {
+  color: var(--primary-color);
+}
